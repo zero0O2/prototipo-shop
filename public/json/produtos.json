@@ -1,0 +1,25 @@
+{
+    "produtos":[
+        {
+            "name":"AIWA, Fone de Ouvido HP-03-B",
+            "id":"0",
+            "preco":"R$ 1.799,90",
+            "star":4,
+            "img":"https://aiwa.vtexassets.com/arquivos/ids/156299/AWS-HP-03-B---Foto-01.png.png?v=638820640136330000"
+        },
+        {
+            "name":"Relógio Dourado Masculino Mondaine",
+            "id":"1",
+            "preco":"R$ 319,00",
+            "star":3,
+            "img":"https://seculus.vtexassets.com/arquivos/ids/237260-800-auto?v=638137354795500000&width=800&height=auto&aspect=true"
+        },
+        {
+            "name":"AIWA, Fone de Ouvido HP-03-B",
+            "id":"2",
+            "preco":"R$ 1.799,90",
+            "star":5,
+            "img":"https://aiwa.vtexassets.com/arquivos/ids/156299/AWS-HP-03-B---Foto-01.png.png?v=638820640136330000"
+        }
+    ]
+}
