@@ -8,5 +8,6 @@ export default defineConfig({
     react(),
     
   ],
+  assetsInclude: ['**/*.glsl', '**/*.frag', '**/*.vs', '**/*.fs'],
   base:"/prototipo-shop/",
 })
