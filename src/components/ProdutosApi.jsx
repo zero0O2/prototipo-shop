@@ -24,7 +24,7 @@ const ProdutosApi = ({element}) => {
 
     return(
         <>
-            <Link to={`/produtos/${element.id}`} class=" cursor-pointer  h-[400px] pb-[20px] flex flex-col w-[270px] justify-between items-center">
+            <Link to={`/prototipo-shop/produtos/${element.id}`} class=" cursor-pointer  h-[400px] pb-[20px] flex flex-col w-[270px] justify-between items-center">
                 <div class="flex flex-col justify-center items-center gap-y-[30px]">
                     <div class="flex relative text-[var(--quarta)]">
                         <p class="flex absolute right-0 bg-[var(--primeira)] w-[70px] justify-center items-center rounded-full"></p>
