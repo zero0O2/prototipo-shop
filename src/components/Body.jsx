@@ -7,10 +7,11 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const banners = [
-    '../../public/img/banner.png',
-    '../../public/img/banner2.png',
-    "../../public/img/image.png",
+  "/img/banner.png",
+  "/img/banner2.png",
+  "/img/image.png",
 ]
+
 
 const Body = ({produtos}) => {
     useLayoutEffect(() => {
