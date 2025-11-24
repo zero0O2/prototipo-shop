@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     
   ],
-  base:"/prototipo-shop"
+  base:"/prototipo-shop",
 })
