@@ -1,5 +1,5 @@
 {
-  "homepage":"https://zero0O2.github.io/prototipo-shop",
+  "homepage": "https://zero0O2.github.io/prototipo-shop",
   "name": "prototipo-compras",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -21,6 +21,7 @@
     "@mui/material": "^7.3.5",
     "@mui/styled-engine-sc": "^7.3.5",
     "@tailwindcss/vite": "^4.1.17",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
