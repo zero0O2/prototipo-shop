@@ -24,7 +24,7 @@ const Produtos = ({img,name,preco,star,id}) => {
 
     return(
         <>  
-            <Link to={`/prototipo-shop/produto/${id}`}>
+            <Link to={`/produto/${id}`}>
                 <div class=" cursor-pointer flex flex-col h-[100%] w-[270px] justify-center items-center">
                     <div class="flex relative text-[var(--quarta)]">
                         <p class="flex absolute right-0 bg-[var(--primeira)] w-[70px] justify-center items-center rounded-full">Novo</p>

@@ -7,9 +7,9 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const banners = [
-  "/img/banner.png",
-  "/img/banner2.png",
-  "/img/image.png",
+  "../../public/img/banner.png",
+  "../../public/img/img/banner2.png",
+  "../../public/img/img/image.png",
 ]
 
 

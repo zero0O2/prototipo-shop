@@ -8,12 +8,12 @@ import PageProduto from "./Pages/PageProduto.jsx"
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/prototipo-shop">
     <Routes>
       <Route path="/prototipo-shop" element={<Home/>}/>
-      <Route path="/prototipo-shop/*" element={<Home/>}/>
-      <Route path="/prototipo-shop/produtos/:id" element={<PageProduto/>}/>
-      <Route path="/prototipo-shop/produto/:id" element={<PageProdutoNovos/>}/>
+      <Route path="*" element={<Home/>}/>
+      <Route path="/produtos/:id" element={<PageProduto/>}/>
+      <Route path="/produto/:id" element={<PageProdutoNovos/>}/>
     </Routes>
   </BrowserRouter>
 )
